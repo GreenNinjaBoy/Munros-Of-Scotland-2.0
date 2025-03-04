@@ -57,39 +57,39 @@ body {
 
 /* navigation links */
 
-#menu {
-    font-size: 160%;
-    letter-spacing: 5px;
-    text-align: center;
-    align-items: center;
-    top: 160px;
+nav {
+    display: flex;
+    justify-content: center; /* Center the nav items */
     background-color: rgb(209, 190, 162);
+}
 
+#menu {
+    display: flex;
+    justify-content: space-around; /* Evenly space the items */
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }
 
 #menu li {
-    display: inline-block;
-    letter-spacing: normal;
-    text-transform: uppercase;
-    border-radius: 10px;
-    width: 100px;
-    margin: 10px 1vw;
-    padding: 10px 20px;
-    background-color: rgb(209, 190, 162);
-    transition: background-color 0.3s;
+    flex: 1; /* Allow items to grow equally */
+    text-align: center;
+    padding: 10px 0;
 }
 
 #menu li a {
     text-decoration: none;
     color: inherit;
-    text-align: center;
-
+    display: block;
+    padding: 10px 20px;
+    font-size: 1.5rem;
 }
 
 #menu a:hover {
     border-bottom: 1px solid black;
     cursor: pointer;
-    background-color: #ddd;
 }
 
 /* munro history information*/

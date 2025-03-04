@@ -8,9 +8,11 @@
 }
 
 body {
-    font-family: Katibeh, Helvetica, sans-serif;
-    font-weight: 600;
-    background-color: #9FB396;
+    font-family: 'lato' Katibeh, Helvetica, sans-serif;
+    font-weight: 400;
+    background-color: #f5f5f5;
+    line-height:1.6;
+    color: #333;
 }
 
 /* headings and logo for page*/
@@ -23,13 +25,13 @@ body {
 }
 
 .main-logo {
-    font-size: 500%;
+    font-size: 3rem;
     text-transform: uppercase;
     letter-spacing: 5px;
     text-align: center;
     justify-content: flex-start;
     mix-blend-mode: screen;
-    color: aliceblue;
+    color: #333;
 }
 
 .main-logo a {
@@ -67,8 +69,9 @@ body {
     border-radius: 10px;
     width: 100px;
     margin: 10px 1vw;
-    padding-bottom: 10px;
+    padding: 10px 20px;
     background-color: rgb(209, 190, 162);
+    transition: background-color 0.3s;
 }
 
 #menu li a {
@@ -81,6 +84,7 @@ body {
 #menu a:hover {
     border-bottom: 1px solid black;
     cursor: pointer;
+    background-color: #ddd;
 }
 
 /* munro history information*/
@@ -104,9 +108,8 @@ body {
 }
 
 .history-info p {
-    font-size: 150%;
-    padding-left: 25px;
-    padding-right: 50px;
+    font-size: 1.2rem;
+    padding: 20px;
 
 }
 
@@ -185,9 +188,14 @@ body {
 }
 
 /* footer content*/
+/* Changes made to the footer to make it more modern and consistent with the rest of the page */
 
 footer {
     height: 150px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
 }
 
 .social-networks {
@@ -200,6 +208,8 @@ footer {
 
 .social-networks>li {
     display: inline;
+    color:#fff;
+    transition: color 0.3s;
 }
 
 .social-networks i {
@@ -207,6 +217,10 @@ footer {
     margin: 0 auto;
     padding: 0;
     color: rgb(209, 190, 162);
+}
+
+.social-networks i:hover {
+    color: #ddd;
 }
 
 /* styles for the equipment page*/

@@ -108,7 +108,7 @@ Please see below for the before and after images of the navigation bar.
 
 **After Image of navigation bar on desktop**
 
-![Images of the newer version of the navigation bar](https://raw.githubusercontent.com/GreenNinjaBoy/Munros-Of-Scotland-2.0/refs/heads/main/assests/README.md%20Images/updated%20images/Updated%20Navbar.webp)
+![Images of the newer version of the navigation bar](https://raw.githubusercontent.com/GreenNinjaBoy/Munros-Of-Scotland-2.0/refs/heads/main/assests/README.md%20Images/updated%20images/Updated-Navbar.webp)
 
 As you can see from the images above, the navigation links are more spread out and are now more visible with the addition of the event section. The text is also more visible and easier to read.
 
@@ -132,7 +132,7 @@ Please see below for the before and after images of the gallery page.
 
 **After Image of gallery page on desktop**
 
-
+![Images of the newer version of the gallery page](https://github.com/GreenNinjaBoy/Munros-Of-Scotland-2.0/blob/main/assests/README.md%20Images/updated%20images/new-gallery-page.webp.png?raw=true)
 
 
 

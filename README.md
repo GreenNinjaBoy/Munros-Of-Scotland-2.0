@@ -102,7 +102,7 @@ I still haven't added a hamburger menu but this is something i will look into in
 
 Please see below for the before and after images of the navigation bar.
 
-![Images of the older version of the navigation bar]()
+![Images of the older version of the navigation bar](assests\README.md Images\old site images\header-nav-bar-image.png)
 
 ![Images of the newer version of the navigation bar]()
 

@@ -1,6 +1,6 @@
-#Munro Baggers 2.0
+# Munro Baggers 2.0
 
-##This is the second iteration of my Munro Baggers website that was creatred as part of my Code Institute Milestone 1 project. The aim of recreating the site was to take on board the feedback I recieved from my first attempt and to create a more polished version. This was also a great opportunity to improve my skills in HTML and CSS.
+## This is the second iteration of my Munro Baggers website that was creatred as part of my Code Institute Milestone 1 project. The aim of recreating the site was to take on board the feedback I recieved from my first attempt and to create a more polished version. This was also a great opportunity to improve my skills in HTML and CSS.
 
 This website is designed for those interested in joining a walking club to explore Scotland's "Munros" mountains. Visitors can discover a brief history of these peaks, learn about the benefits of regular walking, and watch a motivational video on the homepage. The Gallery page showcases various images of the stunning Scottish countryside where these mountains are located. Additionally, the Equipment page provides essential information on gear and preparation needed for a Munro walk. Users can also subscribe to a monthly newsletter via the sign-up page to stay informed about upcoming events. This site aims to foster a community of both new and seasoned hillwalkers eager to explore Scotland's Munros.
 
@@ -108,7 +108,7 @@ Please see below for the before and after images of the navigation bar.
 
 **After Image of navigation bar on desktop**
 
-![Images of the newer version of the navigation bar]()
+![Images of the newer version of the navigation bar](https://raw.githubusercontent.com/GreenNinjaBoy/Munros-Of-Scotland-2.0/refs/heads/main/assests/README.md%20Images/updated%20images/Updated%20Navbar.webp)
 
 As you can see from the images above, the navigation links are more spread out and are now more visible with the addition of the event section. The text is also more visible and easier to read.
 

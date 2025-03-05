@@ -106,7 +106,7 @@ Please see below for the before and after images of the navigation bar.
 
 ![Images of the newer version of the navigation bar]()
 
-
+As you can see from the images above, the navigation links are more spread out and are now more visible with the addition of the event section. The text is also more visible and easier to read.
 
 ### History Section
 

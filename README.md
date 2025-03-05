@@ -128,7 +128,7 @@ Please see below for the before and after images of the gallery page.
 
 **Before Image of gallery page on desktop**
 
-![Images of the older version of the gallery page](https://github.com/GreenNinjaBoy/Munros-Of-Scotland-2.0/blob/main/assests/README.md%20Images/old%20site%20images/gallery-page-image.png?raw=true)
+![Images of the older version of the gallery page](https://github.com/GreenNinjaBoy/Munros-Of-Scotland-2.0/blob/main/assests/README.md%20Images/old%20site%20images/gallery-desktop-image.png?raw=true)
 
 **After Image of gallery page on desktop**
 

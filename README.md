@@ -114,6 +114,24 @@ As you can see from the images above, the navigation links are more spread out a
 
 ### History Section
 
+### Why Join Us Section
+
+### Motivational Video
+
+## Gallery Page
+
+The gallery page has been updated from the inital submitted project. The original gallery page was a collage of images all on the one page. This was not very user friendly and made it difficult for users to view the images in a linear way. The new gallery page has been updated to use a carousel to display the images in a linear way. This is more user friendly and allows users to view the images in a more linear way.
+
+Given that this webpage is focused on HTML and CSS i was able to achieve the carousel effect with the use or radio buttons and labels to control the images.
+
+Please see below for the before and after images of the gallery page.
+
+**Before Image of gallery page on desktop**
+
+![Images of the older version of the gallery page](https://github.com/GreenNinjaBoy/Munros-Of-Scotland-2.0/blob/main/assests/README.md%20Images/old%20site%20images/gallery-page-image.png?raw=true)
+
+**After Image of gallery page on desktop**
+
 
 
 

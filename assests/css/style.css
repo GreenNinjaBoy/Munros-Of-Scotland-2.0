@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Katibeh&family=Lato:wght@300&family=Merriweather:ital@0;1&family=Oswald&family=Work+Sans:wght@400;500;800&display=swap');
 
+/* Reset and base styles */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,21 +8,22 @@
     border: none;
 }
 
-body {
+html {
     height: 100%;
-    font-family: 'lato' Katibeh, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Lato', Katibeh, Helvetica, sans-serif;
     font-weight: 400;
     background-color: #f5f5f5;
-    line-height:1.6;
-    margin: 0;
-    flex: 1;
+    line-height: 1.6;
     display: flex;
     flex-direction: column;
     color: #333;
 }
 
-/* headings and logo for page*/
-
+/* Header and logo styles */
 #header-content {
     background: url('../images/scotland-1.webp') no-repeat center;
     background-size: cover;
@@ -55,17 +57,16 @@ body {
     color: aliceblue;
 }
 
-/* navigation links */
-
+/* Navigation styles */
 nav {
     display: flex;
-    justify-content: center; /* Center the nav items */
+    justify-content: center;
     background-color: rgb(209, 190, 162);
 }
 
 #menu {
     display: flex;
-    justify-content: space-around; /* Evenly space the items */
+    justify-content: space-around;
     align-items: center;
     list-style: none;
     padding: 0;
@@ -74,7 +75,7 @@ nav {
 }
 
 #menu li {
-    flex: 1; /* Allow items to grow equally */
+    flex: 1;
     text-align: center;
     padding: 10px 0;
 }
@@ -92,30 +93,31 @@ nav {
     cursor: pointer;
 }
 
-/* munro history information*/
+/* Main content section */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
 
+/* History information section */
 .history-info {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px;
     margin-top: 35px;
     gap: 25px;
-
 }
 
 .history-info h2 {
     font-size: 275%;
-
-
 }
 
 .history-info p {
     font-size: 1.2rem;
     padding: 20px;
-
 }
 
 #history,
@@ -123,8 +125,7 @@ nav {
 #compleater {
     display: flex;
     flex-direction: column;
-    padding-left: 25px;
-    padding-bottom: 10px;
+    padding: 25px;
     background-color: rgb(209, 190, 162);
     box-shadow: 10px 10px 10px 10px #55684d;
     transition: 0.3s;
@@ -132,6 +133,7 @@ nav {
     align-items: center;
 }
 
+/* Circle containers for images */
 .circle-container-1,
 .circle-container-2,
 .circle-container-3 {
@@ -143,6 +145,9 @@ nav {
     margin-top: 10px;
     background-color: blue;
     align-items: center;
+}
+
+.circle-container-1 {
     background-image: url(../images/munro-walk-picture.webp);
 }
 
@@ -156,66 +161,67 @@ nav {
 }
 
 /* Club information */
-
 #group-info {
-    height: 150px;
     margin-top: 100px;
     text-align: center;
 }
 
-.club h2 {
-    font-family: inherit;
-    font-size: 275%;
+.club {
+    text-align: center;
+}
 
+.club h2 {
+    font-size: 275%;
 }
 
 .club p {
-    font-family: inherit;
     font-size: 150%;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 0 25px;
 }
 
-/* video content*/
+/* Benefits list specific styles */
+.benefits-list {
+    list-style-type: disc;
+    padding-left: 0; 
+    margin: 10px auto; 
+    width: fit-content; 
+    display: inline-block; 
+}
 
+.benefits-list li {
+    margin: 5px 0;
+    text-align: left;
+    padding-right: 20px;
+}
+
+
+/* Video section */
 .video {
     display: flex;
     justify-content: center;
-    margin: 300px auto;
-
+    margin: 100px auto;
 }
 
 #video-clip {
-    display: flex;
-    justify-content: center;
     width: 560px;
     height: 315px;
 }
 
-/* footer content*/
-/* Changes made to the footer to make it more modern and consistent with the rest of the page */
-
+/* Footer styles */
 footer {
+    margin-top: auto;
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 20px 0;
-    position: relative;
     width: 100%;
-    margin-top: auto;
 }
 
 .social-networks {
     display: flex;
     justify-content: space-evenly;
     padding: 20px 350px;
-
-}
-
-.social-networks>li {
-    display: inline;
-    color:#fff;
-    transition: color 0.3s;
+    list-style: none;
 }
 
 .social-networks i {
@@ -223,644 +229,45 @@ footer {
     margin: 0 auto;
     padding: 0;
     color: rgb(209, 190, 162);
+    transition: color 0.3s;
 }
 
 .social-networks i:hover {
     color: #ddd;
 }
 
-/* styles for the equipment page*/
-
-.page-header {
-    margin: 30px auto;
-    font-size: 200%;
-    font-family: inherit;
-    text-align: center;
-}
-
-.container-card {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 50px auto;
-    background-color: rgb(209, 190, 162);
-    box-shadow: 10px 10px 10px 10px #55684d;
-    transition: 0.3s;
-    padding-left: 50px;
-    padding-right: 50px;
-    border: 20px;
-    border-radius: 50px;
-
-}
-
-.container-card h4 {
-    font-size: 300%;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: underline;
-}
-
-.container-card p {
-    font-size: 180%;
-    text-align: left;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 25px;
-}
-
-.essentials {
-    display: flex;
-    flex-direction: row;
-    margin: 25px auto;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-.container-image {
-    padding: 20px 0 20px 0;
-}
-
-#boots-img,
-#map-compass-img {
-    height: 300px;
-    width: 300px;
-    border-radius: 50px;
-}
-
-#hiking-illistration {
-    width: 400px;
-    height: 400px;
-}
-
-.retail-header h4 {
-    text-align: center;
-    font-size: 300%;
-}
-
-.retail-header h6 {
-    text-align: center;
-    font-size: 150%;
-}
-
-.retail-links {
-    margin: 35px auto;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-#mountainwarehouse-logo {
-    width: 250px;
-    height: 150px;
-}
-
-#tresspass-logo {
-    width: 250px;
-    height: 150px;
-}
-
-#decathlon-logo {
-    width: 250px;
-    height: 150px;
-}
-
-/* gallery page */
-
-#photos {
-    margin: 25px auto;
-    clear: both;
-    line-height: 0;
-    column-count: 4;
-    column-gap: 0;
-}
-
-#photos>img {
-    width: 100%;
-}
-
-/* Style for sign up page */
-
-.baggers-sign-up h2 {
-    margin: 30px auto;
-    text-align: center;
-    font-size: 300%;
-    text-decoration: underline;
-}
-
-.form-selection {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin: 50px 50px;
-    height: max-content;
-    background-color: rgb(209, 190, 162);
-    box-shadow: 10px 10px 10px 10px #55684d;
-    transition: 0.3s;
-    padding: 0 150px 20px 150px;
-    border: 20px;
-    border-radius: 60px;
-}
-
-#signup-reasons {
-    margin-right: 275px;
-    margin-left: 0;
-    padding-left: 0;
-    font-size: 200%;
-    text-align: left;
-    text-decoration: none;
-}
-
-#signup-reasons h4 {
-    font-size: 150%;
-}
-
-#signup-reasons ol {
-    list-style-type: square;
-    font-size: 75%;
-}
-
-#sign-up-form {
-    font-size: 250%;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    justify-content: space-evenly;
-    margin-right: 50px;
-    background-color: rgb(209, 190, 162);
-
-}
-
-#fname,
-#lname,
-#email {
-    font: inherit;
-    font-size: 50%;
-    height: 25px;
-    border-radius: 5%;
-    background-color: rgb(245, 224, 193);
-    border: 2px solid #55684d;
-}
-
-.join-button {
-    background-color: rgb(209, 190, 162);
-    box-shadow: 5px 5px 5px 5px #55684d;
-    transition: 0.3s;
-    width: 100px;
-    height: 50px;
-    margin-top: -25px;
-    border: black 2px solid;
-    border-radius: 35%;
-    font-family: inherit;
-    font-size: 50%;
-    position: relative;
-    align-self: center;
-
-}
-
-.join-button:hover {
-    cursor: pointer;
-}
-
-.join-button:active {
-    transform: scale(0.98);
-    box-shadow: 2.5px 2.5px 2.5px 2.5px #55684d;
-}
-
-.contact {
-    margin: 100px 50px;
-}
-
-#contact-info {
-    margin-top: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    font-size: 150%;
-}
-
-#contact-header {
-    font-size: 300%;
-    text-align: center;
-    text-decoration: underline;
-}
-
-#map-location {
-    width: 50%;
-    height: 300px;
-    margin-left: 50px;
-    border: 0;
-}
-
-/* thank-you page*/
-.thank-you h1 {
-    font-size: 500%;
-    text-align: center;
-
-}
-
-.thank-you h3 {
-    font-size: 250%;
-    text-align: center;
-}
-
-/* media quries*/
-/* for smaller mobile device screens */
-
-@media screen and (max-width: 767px) {
-
-    /* headings and logo for page */
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
     .main-logo {
-        font-size: 400%;
+        font-size: 2rem;
     }
 
-    #header-content {
-        background-size: cover;
-    }
-
-    /* navigation links */
-    #menu {
-        margin: auto auto;
-        font-size: 140%;
-    }
-
-    /* munro history information */
     .history-info {
         flex-direction: column;
-        gap: 40px;
-        margin: 30px auto;
-    }
-
-    #why-munro {
-        margin: 30px auto;
-    }
-
-    #group-info {
-        margin-top: auto;
-    }
-
-    /* video content */
-    .video {
-        margin: 30px auto;
+        padding: 10px;
     }
 
     #video-clip {
-        margin-top: 700px;
-        width: fit-content;
-        height: fit-content;
-    }
-
-    /* footer content */
-    footer {
-        height: 100px;
+        width: 100%;
+        max-width: 560px;
     }
 
     .social-networks {
-        margin: 50px auto;
         padding: 20px;
     }
-
-    .social-networks i {
-        font-size: 140%;
-    }
-
-    /* styles for the equipment page */
-    .page-header {
-        margin: 20px auto;
-        font-size: 180%;
-    }
-
-    .container-card {
-        display: block;
-        align-items: center;
-        margin: 20px auto;
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-
-    .container-card h4 {
-        font-size: 250%;
-    }
-
-    .container-card p {
-        font-size: 150%;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .container-image {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-    }
-
-    #organised {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    .essentials {
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-
-    .container-image {
-        align-items: center;
-        padding: 10px 0 10px 0;
-    }
-
-    #boots-img,
-    #map-compass-img,
-    #hiking-illistration {
-        height: 200px;
-        width: 200px;
-    }
-
-    .retail-header h4 {
-        font-size: 250%;
-    }
-
-    .retail-header h6 {
-        font-size: 130%;
-    }
-
-    .retail-links {
-        margin: 20px auto;
-    }
-
-    #mountainwarehouse-logo,
-    #tresspass-logo,
-    #decathlon-logo {
-        width: 100px;
-        height: 90px;
-    }
-
-    /* gallery page */
-    #photos {
-        column-count: 2;
-    }
-
-    .baggers-sign-up h2 {
-        font-size: 250%;
-    }
-
-    .form-selection {
-        flex-direction: column;
-        margin: 20px 20px;
-        display: block;
-        padding: 20px;
-    }
-
-    #signup-reasons {
-        margin-right: 0;
-        font-size: 180%;
-    }
-
-    #signup-reasons h4 {
-        font-size: 130%;
-    }
-
-    #signup-reasons ol {
-        font-size: 75%;
-        margin-left: 25px;
-    }
-
-    #sign-up-form {
-        font-size: 200%;
-        margin-right: 20px;
-    }
-
-    #fname,
-    #lname,
-    #email {
-        font-size: inherit;
-        height: 20px;
-        width: 100%
-    }
-
-    .join-button {
-        margin-top: 15px;
-        font-size: 75%;
-        top: -30px;
-    }
-
-    #contact-info {
-        flex-direction: column;
-    }
-
-    #map-location {
-        border: 0;
-        margin: 50px auto;
-        padding-right: 15px;
-    }
-
 }
 
-@media screen and (min-width: 768px) and (max-width: 1266px) {
-
-    /* headings and logo for page */
-    .main-logo {
-        font-size: 300%;
-    }
-
-    /* navigation links */
-    #menu {
-        font-size: 140%;
-        top: 80px;
-    }
-
-    /* munro history information */
-    .history-info {
-        flex-wrap: wrap;
-        height: fit-content;
-        margin: 25px auto;
-        display: flex;
-        flex-direction: column;
-        gap: 0px;
-
+@media screen and (max-width: 480px) {
+    #menu li a {
+        font-size: 1rem;
+        padding: 5px 10px;
     }
 
     .history-info h2 {
-        font-size: 225%;
-    }
-
-    .history-info p {
-        font-size: 130%;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    #history,
-    #why-munro,
-    #compleater {
-        height: fit-content;
-        padding: 10px;
-        margin: 50px auto;
-        width: 85%;
-    }
-
-    /* Club information */
-    #group-info {
-        height: auto;
-        margin-top: 200px;
+        font-size: 200%;
     }
 
     .club h2 {
-        font-size: 225%;
-    }
-
-    .club p {
-        font-size: 130%;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    /* video content*/
-    .video {
-        margin: 150px auto;
-    }
-
-    /* footer content*/
-    footer {
-        height: 100px;
-    }
-
-    .social-networks {
-        margin: 50px auto;
-        padding: 20px;
-    }
-
-    .social-networks i {
-        font-size: 120%;
-    }
-
-    /* styles for the equipment page*/
-    .page-header {
-        margin: 20px auto;
-        font-size: 180%;
-    }
-
-    .container-card {
-        margin: 20px auto;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .container-card h4 {
-        font-size: 250%;
-    }
-
-    .container-card p {
-        font-size: 150%;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .essentials {
-        flex-wrap: wrap;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .container-image {
-        display: flex;
-        align-items: center;
-        padding: 10px 0 10px 0;
-    }
-
-    #boots-img,
-    #map-compass-img,
-    #hiking-illistration {
-        height: 200px;
-        width: 200px;
-    }
-
-    .retail-header h4 {
-        font-size: 250%;
-    }
-
-    .retail-header h6 {
-        font-size: 120%;
-    }
-
-    .retail-links {
-        margin: 20px auto;
-    }
-
-    #mountainwarehouse-logo,
-    #tresspass-logo,
-    #decathlon-logo {
-        width: 150px;
-        height: 90px;
-    }
-
-    /* gallery page */
-    #photos {
-        column-count: 3;
-    }
-
-    .baggers-sign-up h2 {
-        font-size: 250%;
-    }
-
-    .form-selection {
-        flex-direction: column;
-        margin: 20px 20px;
-        height: auto;
-    }
-
-    #signup-reasons {
-        margin-right: 0;
-        font-size: 150%;
-    }
-
-    #signup-reasons h4 {
-        font-size: 120%;
-    }
-
-    #signup-reasons ol {
-        font-size: 75%;
-    }
-
-    #sign-up-form {
         font-size: 200%;
-        margin-right: 20px;
-    }
-
-    #fname,
-    #lname,
-    #email {
-        font-size: 75%;
-        height: 20px;
-    }
-
-    .join-button {
-        font-size: 75%;
-        text-align: center;
-        display: inline-block;
-        margin-inline: auto;
-        margin-bottom: 40px;
-
-    }
-
-    .contact {
-        margin: 50px;
-    }
-
-    #contact-info {
-        display: flex;
-        flex-direction: column;
-        margin-top: 50px;
-        font-size: 130%;
-        align-items: center;
-    }
-
-    #contact-header {
-        font-size: 250%;
-    }
-
-    #map-location {
-        text-align: center;
-        margin-top: 25px;
-        margin-bottom: 70px;
-        padding-top: 15px;
-        padding-right: 15px;
     }
 }

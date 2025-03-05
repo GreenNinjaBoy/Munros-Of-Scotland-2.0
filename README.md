@@ -55,5 +55,35 @@ The Live link can be found [here](insert link here)
   - [Video](#video)
 - [Acknowledgments](#acknowledgments)
 
-##User Experience
+## User Experience
+
+### User Demographic
+(The user demographic for this webpage has been slightly altered from the original however the original is still avaliable to view [here](insert link here))
+
+This Website was designed for:
+- Those who are interested in joining a walking club to explore Scotland's "Munros" mountains.
+- Those who are looking for a way to improve their physical health and mental wellbeing.
+- Those who are looking for a way to meet new people and make friends.
+- Those who are looking to better prepare themselves before embarking on a Munro walk.
+
+### User Stories
+(User Strories have been again altered from the original however the original are still avaliable to view [here](insert link here)
+The newer version is now spilt into new and returning user stories)
+
+As a new user to the site I want to:
+- Find out more about the Munro Baggers walking club and what we stand for.
+- Find out more about the Munros and why they are called Munros.
+- Find out more about the history of the Munros.
+- Find out more about the benefits of walking.
+- Find out more about the equipment needed for a Munro walk.
+
+As a returning user to the site I want to:
+- Find out about any new events or walks that are happening.
+- Find out about any new challenges that are happening.
+
+
+
+
+
+
 

@@ -31,6 +31,10 @@ body {
     height: 300px;
 }
 
+#logo {
+    padding :62px;
+}
+
 .main-logo {
     font-size: 3rem;
     text-transform: uppercase;

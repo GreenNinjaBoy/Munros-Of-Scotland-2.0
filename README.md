@@ -17,8 +17,8 @@ The Live link can be found [here](insert link here)
   - [Design](#design)
   - [Colors](#colors)
   - [Typography](#typography)
-- [Features](#features)
-- [Existing Features](#existing-features)
+  - [Imagery](#imagery)
+- [Existing Features/ Improvments](#existing-features-improvments)
   - [Header and Navigation Bar](#header-and-navigation-bar)
   - [History Section](#history-section)
   - [Why Join Us Section](#why-join-us-section)
@@ -29,12 +29,8 @@ The Live link can be found [here](insert link here)
   - [Sign Up Page](#sign-up-page)
   - [Contact Us](#contact-us)
   - [Submission Page](#submission-page)
-  - [Social Media Links](#social-media-links)
+  - [Footer](#footer)
   - [Features Left to Implement](#features-left-to-implement)
-- [Changes in the New Iteration](#changes-in-the-new-iteration)
-  - [Updated Features](#updated-features)
-  - [New Features](#new-features)
-  - [Removed Features](#removed-features)
 - [Testing](#testing)
   - [Header and Navigation Bar Test](#header-and-navigation-bar-test)
   - [Main Header Image](#main-header-image)
@@ -80,6 +76,45 @@ As a new user to the site I want to:
 As a returning user to the site I want to:
 - Find out about any new events or walks that are happening.
 - Find out about any new challenges that are happening.
+
+## Wireframes
+
+The wireframes for this site have not been updated as i felt the original design was good and worked well.
+
+
+## Design
+
+### Colors  
+
+### Typography
+
+### Imagery
+
+## Existing Features/ Improvments
+
+### Header and Navigation Bar
+
+The header and the navigation bar have been altered from the original submitted project [Munro Baggers](insert link here).
+It was noted on my assessment feedback that my navigationbar did not render well on mobile devices and that when displaying on a smaller device the items then were split into two rows. The assessor suggested that i should have introduced a hamburger menu to fix this issue however at that time i didn't know how to do this and it was not covered in the inital stages of ther course.
+
+Since reviewing my feedback I have used flexbox to create a more responsive navigation bar that will display correctly on all devices.
+I still haven't added a hamburger menu but this is something i will look into in the future. I have also inserted an event section into the navigation bar to allow users to find out about any upcoming events.
+
+Please see below for the before and after images of the navigation bar.
+
+![Images of the older version of the navigation bar]()
+
+![Images of the newer version of the navigation bar]()
+
+
+
+### History Section
+
+
+
+
+
+
 
 
 

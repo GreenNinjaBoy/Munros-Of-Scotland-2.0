@@ -97,12 +97,16 @@ The wireframes for this site have not been updated as i felt the original design
 The header and the navigation bar have been altered from the original submitted project [Munro Baggers](insert link here).
 It was noted on my assessment feedback that my navigationbar did not render well on mobile devices and that when displaying on a smaller device the items then were split into two rows. The assessor suggested that i should have introduced a hamburger menu to fix this issue however at that time i didn't know how to do this and it was not covered in the inital stages of ther course.
 
-Since reviewing my feedback I have used flexbox to create a more responsive navigation bar that will display correctly on all devices.
+Since reviewing my feedback I have used flexbox to create a more responsive navigation bar that will display correctly on all devices with the addition of a hover effect.
 I still haven't added a hamburger menu but this is something i will look into in the future. I have also inserted an event section into the navigation bar to allow users to find out about any upcoming events.
 
 Please see below for the before and after images of the navigation bar.
 
-![Images of the older version of the navigation bar](assests\README.md Images\old site images\header-nav-bar-image.png)
+**Before Image of navigation bar on desktop**
+
+![Images of the older version of the navigation bar](https://github.com/GreenNinjaBoy/Munros-Of-Scotland-2.0/blob/main/assests/README.md%20Images/old%20site%20images/header-nav-bar-image.png?raw=true)
+
+**After Image of navigation bar on desktop**
 
 ![Images of the newer version of the navigation bar]()
 

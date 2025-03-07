@@ -386,6 +386,18 @@ footer {
 }
 
 /* Equipment page specific styles */
+
+.equipment-header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.equipment-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
 #equipment-carousel-container {
     max-width: 1200px;
     margin: 0 auto;

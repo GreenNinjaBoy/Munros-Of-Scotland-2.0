@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Scottish munro walks for beginners">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Munro Baggers</title>
+</head>
+
+<body>
+    <!--header section with main title and an image-->
+    <header id="header-content">
+        <div id="logo">
+            <h1 class="main-logo"><a href="index.html" aria-label="home-page">Munro Baggers</a>
+            </h1>
+            <h5 class="sub-logo"><a href="index.html" aria-label="home-page">For those wishing to conquer Scotland</a>
+            </h5>
+        </div>
+    </header>
+    <!--navigation menu taking user to different pages of website-->
+    <nav>
+        <ul id="menu">
+            <li>
+                <a href="index.html" aria-label="Home-page">Home</a>
+            </li>
+            <li>
+                <a href="gallery.html" aria-label="Gallery-page">Gallery</a>
+            </li>
+            <li>
+                <a href="equipment.html" aria-label="Equipment-page">Equipment</a>
+            </li>
+            <li>
+                <a href="events.html" aria-label="Events-page">Events</a>
+            </li>
+            <li>
+                <a href="newsletter.html" aria-label="Newsletter-page">NewsLetter</a>
+            </li>
+        </ul>
+    </nav>
+    <!--page will describe what equipment is needed-->
+    <section id="equipment-carousel-container">
+        <div>
+            <h2>Essential Equipment</h2>
+            <p>
+                Here's what you'll need for your Munro adventures
+                With also a List of recommended retailers for equipment needs.
+            </p>
+        </div>
+        <div class="equipment-carousel">
+            <!-- Radio buttons for navigation -->
+            <input type="radio" name="equipment-slide" id="equipment-slide1" checked>
+            <input type="radio" name="equipment-slide" id="equipment-slide2">
+            <input type="radio" name="equipment-slide" id="equipment-slide3">
+            
+            <div class="equipment-carousel-slides">
+                <!-- First group -->
+                <div class="equipment-slide-group">
+                    <div class="equipment-card">
+                        <h4>Walking Boots</h4>
+                        <div class="equipment-content">
+                            <div class="equipment-text">
+                                <p>
+                                    One of the more important pieces of equipment required is a good pair of walking boots. We recommend
+                                    a pair that supports both your feet and ankles. Some of the munro terrain is challenging and one
+                                    misstep could cause an injury. A decent pair of walking boots will help prevent this.
+                                </p>
+                            </div>
+                            <div class="equipment-image">
+                                <img src="assets/images/walking-boots.webp" alt="Pair of Walking Boots">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second group -->
+                <div class="equipment-slide-group">
+                    <div class="equipment-card">
+                        <h4>Preparation is Key</h4>
+                        <div class="equipment-content">
+                            <div class="equipment-text">
+                                <p>
+                                    Know your routes, check the weather before you leave. You'll need lightweight layers and
+                                    waterproof clothing to stay dry and warm. Take a map, a torch and a safety kit
+                                    in case of accidents, and make sure you carry lots of water and food. Learn how to properly
+                                    navigate using a map and compass – lots of Munros are remote.
+                                </p>
+                            </div>
+                            <div class="equipment-image">
+                                <img src="assets/images/hikers-using-map-and-compass.webp" alt="Hikers using map and compass">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Third group -->
+                <div class="equipment-slide-group">
+                    <div class="equipment-card">
+                        <h4>Safety is Essential</h4>
+                        <div class="equipment-content">
+                            <div class="equipment-text">
+                                <p>
+                                    Respect your surroundings and take care all the way. We suggest you leave a route card and an
+                                    estimated return time with someone who can call for help if you don't come back on schedule.
+                                    Most importantly, have fun! Scotland's Munros are some of the most spectacular places on Earth.
+                                </p>
+                            </div>
+                            <div class="equipment-image">
+                                <img src="assets/images/hiking.webp" alt="hiking-illustration">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Navigation dots -->
+            <div class="equipment-carousel-nav">
+                <label for="equipment-slide1"></label>
+                <label for="equipment-slide2"></label>
+                <label for="equipment-slide3"></label>
+            </div>
+        </div>
+    </section>
+    <!--section with recommended retail stores for equipment-->
+    <section class="retail" id="retail-links">
+        <div class="retail-links">
+            <div id="mountain-warehouse">
+                <a href="https://www.mountainwarehouse.com/" aria-label="mountainwarehouse-site" target="_blank">
+                    <img id="mountainwarehouse-logo" src="assets/images/mw-opengraph.webp" alt="Mountainwarehouse">
+                </a>
+            </div>
+            <div id="tress-pass">
+                <a href="https://www.trespass.com/" aria-label="tresspass-site" target="_blank">
+                    <img id="tresspass-logo" src="assets/images/trespass.webp" alt="Tresspass">
+                </a>
+            </div>
+            <div id="decathlon">
+                <a href="https://www.decathlon.co.uk/" aria-label="decathlon-site" target="_blank">
+                    <img id="decathlon-logo" src="assets/images/decathilon-image.webp" alt="decathilon">
+                </a>
+            </div>
+        </div>
+    </section>
+    <!--Footer section with links to social media and creator information-->
+    <footer>
+        <ul class="social-networks">
+            <li>
+                <a href="https://facebook.com" aria-label="facebook.com" target="_blank" rel="noopener"
+                aria-label=" Visit our facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com" aria-label="twitter.com" target="_blank" rel="noopener"
+                    aria-label=" Visit our twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://youtube.com" aria-label="youtube.com" target="_blank" rel="noopener"
+                    aria-label=" Visit our youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li>
+                <a href="https://instagram.com" aria-label="instagram.com" target="_blank" rel="noopener"
+                    aria-label=" Visit our instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
+        <p>Created and Updated by Jamie Connell, Junior Software Developer 2025</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/d38a96ee34.js" crossorigin="anonymous"></script>
+</body>

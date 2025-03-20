@@ -341,6 +341,43 @@ footer {
     background: #333;
 }
 
+/* styles for the retail links */
+
+.retail {
+    padding: 30px;
+    text-align: center;
+}
+
+.retail h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.retail p {
+    margin-bottom: 30px;
+}
+
+.retail-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.retail-links div {
+    width: 30%;
+    max-width: 300px;
+}
+
+.retail-links img {
+    width: 100%;
+    height: auto;
+    max-height: 100px;
+    object-fit: contain;
+}
+
+
 /* Media queries for responsiveness */
 @media screen and (max-width: 768px) {
     .main-logo {

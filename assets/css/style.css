@@ -377,6 +377,96 @@ footer {
     object-fit: contain;
 }
 
+/* styles for the events page */
+
+#events-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.center-text, .intro-text {
+    width: 100%;
+    text-align: center;
+}
+
+.intro-text {
+    margin-bottom: 30px;
+}
+
+#events-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+
+.center-text, .intro-text {
+    grid-column: 1 / span 2;
+}
+
+
+.region-section {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fcfcfc;
+    margin-bottom: 20px;
+}
+
+.region-section h3 {
+    background-color: #55684d;
+    color: white;
+    padding: 12px;
+    margin-top: 0;
+    border-radius: 3px;
+}
+
+.region-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.mountain-list {
+    flex: 1;
+    min-width: 200px;
+}
+
+.mountain-list ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.mountain-list li {
+    padding: 5px 0;
+    border-bottom: 1px dotted #ddd;
+}
+
+.scheduled-events {
+    flex: 2;
+    min-width: 250px;
+}
+
+.event-card {
+    background-color: #f9f9f9;
+    border-left: 4px solid #55684d;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 0 3px 3px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.event-card h5 {
+    margin-top: 0;
+    color: #55684d;
+    font-size: 1.1em;
+}
+
+.event-card p {
+    margin: 5px 0;
+}
 
 /* Media queries for responsiveness */
 @media screen and (max-width: 768px) {
@@ -568,5 +658,16 @@ footer {
 
     .equipment-text {
         text-align: center;
+    }
+}
+
+/* Responsive design for events page on smaller screens */
+@media screen and (max-width: 800px) {
+    #events-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .center-text, .intro-text {
+        grid-column: 1;
     }
 }

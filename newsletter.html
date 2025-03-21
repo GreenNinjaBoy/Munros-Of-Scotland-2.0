@@ -43,7 +43,96 @@
         </ul>
     </nav>
     <main>
-        <h2 class="center-text">Newsletter</h2>
+        <!--Newsletter subscription section-->
+        <section class="newsletter-container">
+            <h2 class="center-text">Munro Baggers Newsletter</h2>
+            <p class="intro-text">Stay updated with the latest Munro adventures, tips, and upcoming events!</p>
+            
+            <div class="newsletter-content">
+                <div class="newsletter-benefits">
+                    <div class="benefit-card">
+                        <h3><i class="fa-solid fa-mountain-sun"></i> Monthly Adventures</h3>
+                        <p>Get detailed guides for popular Munros, complete with difficulty ratings, estimated times, and stunning photography.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <h3><i class="fa-solid fa-calendar-days"></i> Event Notifications</h3>
+                        <p>Be the first to know about upcoming group hikes, training sessions, and social gatherings with fellow Munro enthusiasts.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <h3><i class="fa-solid fa-shirt"></i> Gear Reviews</h3>
+                        <p>Expert recommendations on the best equipment for Scottish mountain conditions at various times of the year.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <h3><i class="fa-solid fa-users"></i> Community Stories</h3>
+                        <p>Read inspiring tales from our members as they conquer Scotland's magnificent peaks and share their experiences.</p>
+                    </div>
+                </div>
+                
+                <div class="signup-form-container">
+                    <div class="form-wrapper">
+                        <h3>Subscribe to Our Newsletter</h3>
+                        <p>Join over 1,000 fellow Munro enthusiasts receiving monthly updates!</p>
+                        
+                        <form id="newsletter-form" action="thank-you.html">
+                            <div class="form-group">
+                                <label for="fname">First Name</label>
+                                <input id="fname" class="text-input" type="text" name="first_name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="lname">Last Name</label>
+                                <input id="lname" class="text-input" type="text" name="last_name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input id="email" class="text-input" type="email" name="email_address" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label>Interests (Optional)</label>
+                                <div class="checkbox-group">
+                                    <input type="checkbox" id="events" name="interests" value="events">
+                                    <label for="events">Group Events</label>
+                                </div>
+                                <div class="checkbox-group">
+                                    <input type="checkbox" id="equipment" name="interests" value="equipment">
+                                    <label for="equipment">Equipment Reviews</label>
+                                </div>
+                                <div class="checkbox-group">
+                                    <input type="checkbox" id="guides" name="interests" value="guides">
+                                    <label for="guides">Trail Guides</label>
+                                </div>
+                                <div class="checkbox-group">
+                                    <input type="checkbox" id="photos" name="interests" value="photos">
+                                    <label for="photos">Photography</label>
+                                </div>
+                            </div>
+                            
+                            <button type="submit" class="submit-btn">Subscribe Now</button>
+                        </form>
+                        <p class="privacy-note">We respect your privacy. Unsubscribe at any time.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--Sample newsletter preview section-->
+        <section class="newsletter-preview">
+            <h3 class="center-text">What to Expect</h3>
+            <div class="preview-container">
+                <div class="preview-content">
+                    <h4>From Our Latest Issue</h4>
+                    <p><strong>Featured Munro:</strong> Ben Nevis</p>
+                    <p><strong>Community Spotlight:</strong> Jenny's 50th Munro Achievement</p>
+                    <p><strong>Seasonal Tip:</strong> Navigating in Low Visibility Conditions</p>
+                    <p><strong>Upcoming Event:</strong> Winter Safety Workshop - December 15th</p>
+                </div>
+                <div class="preview-image">
+                    <img src="assets/images/munro-bagging-grampians.webp" alt="Mountain landscape preview">
+                </div>
+            </div>
+        </section>
     </main>
     <!--Footer section with links to social media and creator information-->
     <footer>
@@ -67,5 +156,6 @@
         </ul>
         <p>Created and Updated by Jamie Connell, Junior Software Developer 2025</p>
     </footer>
+    <script src="https://kit.fontawesome.com/d38a96ee34.js" crossorigin="anonymous"></script>
 </body>
 </html>

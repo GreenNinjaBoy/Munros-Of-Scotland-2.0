@@ -134,7 +134,11 @@ Please see below for the before and after images of the gallery page.
 
 ![Images of the newer version of the gallery page](https://github.com/GreenNinjaBoy/Munros-Of-Scotland-2.0/blob/main/assets/README.md%20Images/updated%20images/new-gallery-page.webp.png?raw=true)
 
+## Equipment Page
 
+The equipment page as like the previous pages has also been updated and is now more user friendly. All the information has remained the same and provides the user with what equipment they should consider and also some safety information.
+
+The displayed information is still split into three sections as before how ever to keep within the theme used for the gallery page these have been put into a carosel which the user can scroll through.
 
 
 
